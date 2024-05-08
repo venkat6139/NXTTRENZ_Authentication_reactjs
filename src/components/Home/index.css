@@ -1,0 +1,49 @@
+.home-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 80vh;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 600px;
+}
+.brand-logo {
+  width: 400px;
+}
+.shop-button {
+  width: 130px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 40px;
+  color: #1e293b;
+  text-align: center;
+}
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 10px;
+  text-align: left;
+}
